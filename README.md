@@ -1,15 +1,43 @@
-# BreezeNotes
+# BreezyNote
 
-BreezeNotes is a mobile application that allows users to manage their notes efficiently. Users can create, edit, delete, and view notes seamlessly on their mobile devices. Firebase is used for backend data storage and authentication.
+BreezyNote is a sleek and intuitive mobile application built with Flutter. It provides users with the ability to create, view, edit, and delete notes easily. With Firebase integration, BreezyNote ensures secure and real-time synchronization of your notes. Users can also sign in using their Google account for a seamless and quick authentication experience.
+
+# Features
+**`Google Sign-In` : Quick and secure authentication using Google accounts.**  
+
+**`Realtime Notes Management`: Create, view, edit, and delete notes with data stored in Firebase.**  
+
+**`Responsive Design` : Optimized for both portrait and landscape orientations**  
+
+**`User-Friendly Interface` : Clean and intuitive UI for a seamless user experience**  
+
+**`Persistent Storage` : Notes are stored in Firebase Firestore, allowing for persistent access and synchronization across devices.**  
+
+# Technologies Used
+**`1. Flutter`: For building the cross-platform mobile application.**  
+**`2. Firebase Authentication`: For secure user login with Google Sign-In.**  
+**`3. Firebase Firestore`: For storing and managing notes data in real-time.**  
+
+# Firebase Integration
+
+1. *Authentication*  
+
+**` Google Sign-In:` Users can sign in using their Google account.Firebase Authentication handles the secure login process and maintains the user's session.**
+
+2. *Firestore Database*
+
+**`Notes Storage`: Notes are stored in a Firebase Firestore database, which provides real-time synchronization and access across devices. Each user's notes are securely stored in their personal collection within Firestore.**
+
 
 # Screenshots
 
-![Screenshot_2024-06-17-20-48-43-14_f1aa30c9320072adeb3a9c4485098c93](https://github.com/alatjoseph/Breeze_notes/assets/130880116/88d3e520-e9bc-4dab-816a-249849f2d46d)
+<p align="center">
+  <img src="https://via.placeholder.com/150" width="200" alt="Home Screen">
+  <img src="https://via.placeholder.com/150" width="200" alt="Add Note Screen">
+  <img src="https://via.placeholder.com/150" width="200" alt="View Note Screen">
+  <img src="https://via.placeholder.com/150" width="200" alt="Edit Note Screen">
+</p>
 
-![Screenshot_1718637427](https://github.com/alatjoseph/Breeze_notes/assets/130880116/5275bd59-66b9-4c65-b115-9ce4dce84455)
-
-![Screenshot_1718637415](https://github.com/alatjoseph/Breeze_notes/assets/130880116/f54f240c-fa9d-42ed-b2f7-f706a4298504)
 
 
 
-![Screenshot_1718637433](https://github.com/alatjoseph/Breeze_notes/assets/130880116/dcd205f6-b124-442c-a169-7ac6e6d3a280)
